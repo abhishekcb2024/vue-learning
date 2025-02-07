@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Contact from '../views/Contact.vue'
 import Composable from '@/views/Composable.vue'
+import ComposablesProps from '@/views/ComposablesProps.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,6 +30,11 @@ const router = createRouter({
       path: '/composable',
       name: 'composable',
       component: Composable,
+    },
+    {
+      path: '/composablesProps',
+      name: 'composablesProps',
+      component: ComposablesProps,
     },
   ],
 })

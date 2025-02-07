@@ -15,6 +15,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/contact">Contact</RouterLink>
         <RouterLink to="/composable">Composable</RouterLink>
+        <RouterLink to="/composablesProps">Composable-Props</RouterLink>
       </nav>
     </div>
   </header>
